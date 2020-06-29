@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9cf53c6.chunk.css",
+    "main.js": "/static/js/main.d797a487.chunk.js",
+    "main.js.map": "/static/js/main.d797a487.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b97f594c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b97f594c.js.map",
+    "static/css/2.fa2b5f87.chunk.css": "/static/css/2.fa2b5f87.chunk.css",
+    "static/js/2.f677cc2a.chunk.js": "/static/js/2.f677cc2a.chunk.js",
+    "static/js/2.f677cc2a.chunk.js.map": "/static/js/2.f677cc2a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a81287632043e00badc90c66b6c693a8.js": "/precache-manifest.a81287632043e00badc90c66b6c693a8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fa2b5f87.chunk.css.map": "/static/css/2.fa2b5f87.chunk.css.map",
+    "static/css/main.c9cf53c6.chunk.css.map": "/static/css/main.c9cf53c6.chunk.css.map",
+    "static/js/2.f677cc2a.chunk.js.LICENSE.txt": "/static/js/2.f677cc2a.chunk.js.LICENSE.txt",
+    "static/media/clouds+mountains.jpg": "/static/media/clouds+mountains.c7d575e7.jpg",
+    "static/media/group.jpg": "/static/media/group.dea9f427.jpg",
+    "static/media/hills.jpg": "/static/media/hills.92029924.jpg",
+    "static/media/lohgad.jpg": "/static/media/lohgad.2db1e169.jpg",
+    "static/media/man.jpg": "/static/media/man.89ce69c7.jpg",
+    "static/media/other.jpg": "/static/media/other.89f5d5f7.jpg",
+    "static/media/react-bootstrap-carousel.css": "/static/media/react-bootstrap-carousel.f7448c04.ttf",
+    "static/media/woman.jpg": "/static/media/woman.13cc70cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b97f594c.js",
+    "static/css/2.fa2b5f87.chunk.css",
+    "static/js/2.f677cc2a.chunk.js",
+    "static/css/main.c9cf53c6.chunk.css",
+    "static/js/main.d797a487.chunk.js"
+  ]
+}
