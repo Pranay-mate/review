@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/webuDB', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Pranay:FN4hg5EPm4iR8ifQ@cluster0.h2oju.mongodb.net/webuDB?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 /////////////////////////////REVIEW///////////
 const reviewSchema = {
@@ -126,8 +126,8 @@ app.post("/addTrekEntry", function(req, res) {
 
 });
 
-//app.use(express.static(path.join(__dirname, './build')))
-//app.get('*', (req, res) => {
-//    res.sendFile(path.join(__dirname, './build'))
-//})
+app.use(express.static(path.join(__dirname, './build')))
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './build'))
+})
 app.listen(port,console.log("hosted on port:"+port));
